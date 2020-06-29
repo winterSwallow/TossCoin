@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <com.winter.tosscoin.TossImageView
+        android:id="@+id/toss_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/toss_start"
+        android:layout_centerHorizontal="true"
+        app:circleCount="@integer/default_circleCount"
+        app:duration="@integer/default_duration"
+        app:frontDrawable="@drawable/front"
+        app:result="front"
+        app:reverseDrawable="@drawable/reverse"
+        app:startOffset="@integer/default_startOffset" />
+
+    <Button
+        android:id="@+id/toss_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:text="@string/app_start" />
+</RelativeLayout>

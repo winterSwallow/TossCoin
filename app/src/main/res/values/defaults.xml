@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_circleCount">10</integer>
+    <integer name="default_xAxisDirection">1</integer>
+    <integer name="default_yAxisDirection">0</integer>
+    <integer name="default_zAxisDirection">0</integer>
+    <integer name="default_result">1</integer>
+    <integer name="default_duration">2000</integer>
+    <integer name="default_startOffset">0</integer>
+</resources>
